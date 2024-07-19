@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo"><span>P</span>ortfolio</a>
+
+
+        
+
+        <ul class="navbar">
+            <li class="hideOnMobile"><a href="index.html" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="education.html">Education</a></li>
+            <li class="hideOnMobile"><a href="#">Projects</a></li>
+            <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1GmbrX-VHrNaoMWcU1FpnVcl_Zfwy3A0r/view?usp=drive_link" target="_blank">Resume</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li ></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li style="font-size: 50%;" onclick=hideSidebar()><a href="#"><i class='bx bx-x'></i></a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1GmbrX-VHrNaoMWcU1FpnVcl_Zfwy3A0r/view?usp=drive_link" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li onclick=showSidebar()><a href="#"><i class='bx bx-menu'></i></a></li> -->
+        </ul>
+
+        
+
+        <div class="menu-btn">
+            <span>MENU</span>
+            <div onclick=showSidebar()><a href="#"><i id="btn" class='bx bx-menu'></i></a></div>
+            
+        </div>
+        
+
+    </header><br><br><br><br>
+    <div class="projectheading"><h2>MY PROJECTS</h2></div>
+    <section id="projects">
+        
+        
+        <div class="project" data-project="project1">
+            <p>Life-Line</p> <br>
+            <img src="../images/hospital.jpg" alt="Life-Line">
+            <span class="info">i</span>
+            <p>Life-Line</p>
+        </div>
+        
+        
+        <div class="project" data-project="project2">
+            <p>E-Commerce</p> <br>
+            <img src="../images/ecommerce.jpg" alt="E-Commerce">
+            <span class="info">i</span>
+            
+        </div>
+        <div class="project" data-project="project3">
+            <p>Weather Forecast</p> <br>
+            <img src="../images/weather.jpg" alt="Weather Forecast App">
+            <span class="info">i</span>
+            
+        </div>
+        <div class="project" data-project="project4">
+            <p>Spell-Suggestion App</p> <br>
+            <img src="../images/spelling.jpg" alt="Spell-Suggestion App">
+            <span class="info">i</span>
+            
+        </div>
+        
+        <div class="project" data-project="project5">
+            <p>My Portfolio</p> <br>
+            <img src="../images/portfolio.jpg" alt="My Portfolio">
+            <span class="info">i</span>
+            
+        </div>
+    </section>
+
+    
+    <div id="project-details">
+        <div class="details-content" id="project1">
+            <h3>Life-Line</h3><br>
+            <ul>
+                <li><strong>Tech Stack:</strong> Python, Machine Learning, Computer Vision, MySQL, GUI, Tkinter, Data Structure</li>
+                <li><strong>Github URL:</strong> <a href="#">Project Link</a></li>
+            </ul><br>
+            <h4>Description of the Project :</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis sequi maxime facilis, ex quas deleniti?</p>
+            <p>The efficiency and accuracy of the project are high and worked smoothly. The code is free to download from GitHub.</p>
+        </div>
+
+        <div class="details-content" id="project2">
+            <h3>E-Commerce Website</h3><br>
+            <ul>
+                <li><strong>Tech Stack:</strong> Python, Machine Learning, Computer Vision, MySQL, GUI, Tkinter, Data Structure</li>
+                <li><strong>Github URL:</strong> <a href="#">Project Link</a></li>
+                <li><strong>DEMO LINK:</strong> <a href="#">click for demo</a></li>
+            </ul><br>
+            <h4>Description of the Project :</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis sequi maxime facilis, ex quas deleniti?</p>
+            <p>The efficiency and accuracy of the project are high and worked smoothly. The code is free to download from GitHub.</p>
+        </div>
+        <div class="details-content" id="project3">
+            <h3>Weather-ForeCast</h3><br>
+            <ul>
+                <li><strong>Tech Stack:</strong> Python, Machine Learning, Computer Vision, MySQL, GUI, Tkinter, Data Structure</li>
+                <li><strong>Github URL:</strong> <a href="#">Project Link</a></li>
+            </ul><br>
+            <h4>Description of the Project :</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis sequi maxime facilis, ex quas deleniti?</p>
+            <p>The efficiency and accuracy of the project are high and worked smoothly. The code is free to download from GitHub.</p>
+        </div>
+        <div class="details-content" id="project4">
+            <h3>Spell-Suggestion App</h3><br>
+            <ul>
+                <li><strong>Tech Stack:</strong> Python, Machine Learning, Computer Vision, MySQL, GUI, Tkinter, Data Structure</li>
+                <li><strong>Github URL:</strong> <a href="#">Project Link</a></li>
+            </ul><br>
+            <h4>Description of the Project :</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis sequi maxime facilis, ex quas deleniti?</p>
+            <p>The efficiency and accuracy of the project are high and worked smoothly. The code is free to download from GitHub.</p>
+        </div>
+        <div class="details-content" id="project5">
+            <h3>My Personal Portfolio</h3><br>
+            <ul>
+                <li><strong>Tech Stack:</strong> Python, Machine Learning, Computer Vision, MySQL, GUI, Tkinter, Data Structure</li>
+                <li><strong>Github URL:</strong> <a href="#">Project Link</a></li>
+            </ul><br>
+            <h4>Description of the Project :</h4><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis sequi maxime facilis, ex quas deleniti?</p>
+            <p>The efficiency and accuracy of the project are high and worked smoothly. The code is free to download from GitHub.</p>
+        </div>
+        
+    </div>
+    <div id="project-details">
+        
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
